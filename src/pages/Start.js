@@ -4,7 +4,6 @@ import logo from "../images/logo.svg";
 import BtnNext from "../components/BtnNext";
 import preview from "../images/preview.png";
 
-
 const Start = () => {
   return (
     <div className="start">
@@ -15,14 +14,10 @@ const Start = () => {
       </h5>
 
       <div className="preview">
-        <img alt="" src={preview}/>
+        <img alt="" src={preview} />
       </div>
 
-
-      <BtnNext/>
-
-
-
+      <BtnNext />
     </div>
   );
 };
