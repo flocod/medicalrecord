@@ -11,7 +11,9 @@ const Time = (props) => {
     <div>
       <h1>Bonjour, {props.local} !!!!</h1>
       <h2>Il est {time}.</h2>
-    </div>
+    </div>  
+
+
   );
 
   return element;

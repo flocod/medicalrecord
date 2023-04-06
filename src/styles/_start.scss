@@ -1,0 +1,48 @@
+
+  .start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+   position: relative;
+
+    .logo {
+      display: block;
+      width: 100%;
+      margin-top: 0px;
+      transform: translateX(-5%);
+    }
+
+    h5{
+        width: 100%;
+        font-weight: 400;
+    }
+    .preview{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 30px;
+       img{
+        width: 100%;
+        transform: translateX(7%);
+       }
+    }
+
+    .BtnNext{
+        position: absolute; 
+        bottom: 4%;
+        right: 6%; 
+        width: 70px;
+        height: 70px;
+        transform: translateX(50%);
+        
+        border-radius: 50%;
+        background: var(--cta);
+    }
+
+
+  }
+
